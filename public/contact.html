@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href='/home.html'>Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='/services.html'>Our services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='/contact.html'>Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <h1>Contact us</h1>
+    <div class="container">
+  
+        <form >
+          <div class="form-group">
+          <label for="firstName">Name:</label>
+            <input type="firstName" class="form-control" id="fName" placeholder="Enter first name" name="fName">
+      
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Message:</label>
+            <textarea type="text" class="form-control" id="pwd" placeholder="Write your text here" name="pwd"></textarea>
+            
+          </div>
+          <button type="submit" class="btn btn-default" onclick="alert('your message is delivered')">Submit</button>
+        </form>
+      </div>
+</body>
+</html>
